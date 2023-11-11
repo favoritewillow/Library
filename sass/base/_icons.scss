@@ -1,0 +1,56 @@
+.ico {
+  cursor: pointer;
+  display: inline-block;
+} 
+
+.icon-profile {
+  background-image: url('.././images/icons/Subtract.svg');
+  width: 2.8rem;
+  height: 2.8rem; 
+  margin-left: 1rem;  
+  transition: transform 0.3s ease;
+  z-index: 10;
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  @include media-break-point {
+    margin-right: -3.88rem;
+
+  }
+
+  @include media-tablet {
+    margin-right: -1.7rem;
+  }
+}
+
+.icon-profile.active {
+  background-image: url('.././images/icons/Subtract.svg');
+  position: fixed;
+  top: 3.1rem;
+  right: 10.5rem;
+  @include media-break-point {
+    right: 13.21rem;
+  }
+  @include media-tablet {
+    right: 11.1rem;
+  }
+}
+
+.icon-twitter {
+  background-image: url('.././images/icons/twitter.svg');
+  width: 2.3rem;
+  height: 2rem;  
+}
+
+.icon-instagram {
+  background-image: url('.././images/icons/instagram.svg');
+  width: 2.4rem;
+  height: 2.4rem;  
+}
+
+.icon-facebook {
+  background-image: url('.././images/icons/facebook.svg');
+  width: 1.1rem;
+  height: 2rem;  
+}

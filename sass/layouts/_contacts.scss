@@ -1,0 +1,15 @@
+.contacts-ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin: 0;   
+  list-style-type: none;
+}
+
+.contacts-tel {
+  margin-bottom: 2rem;   
+  a {
+    text-decoration: none;
+    color: $color-secondary-text;   
+  }
+}

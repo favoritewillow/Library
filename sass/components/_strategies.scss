@@ -1,0 +1,37 @@
+.favorites__strategies {
+  width: 55rem;
+  height: 55.5rem;
+  border: 0.1rem solid $color-secondary-text;
+  position: relative;
+  margin: 0 4rem 3.8rem 0;
+  @include media-break-point {
+    height: 55.6rem;
+    margin-top: -2px;
+  }
+  @include media-tablet {
+    height: 55.6rem;
+    margin-top: -1px;
+  }
+}
+
+.strategies-winter, .strategies-spring, .strategies-summer, .strategies-autumn {
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.strategies-winter.active, .strategies-spring.active, .strategies-summer.active, .strategies-autumn.active {
+  opacity: 1;
+}
+
+
+.coffee-shop__strategies {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6rem;
+  @include media-break-point {
+    flex-direction: column;
+  }
+  @include media-tablet {
+    flex-direction: column;
+  }
+}

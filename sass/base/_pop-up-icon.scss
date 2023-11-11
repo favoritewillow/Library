@@ -1,0 +1,38 @@
+.pop-up-icon {
+  display: none; 
+}
+
+.pop-up-icon.active {
+  display: block;
+}
+
+.pop-up-icon-content {  
+  width: 5.5%;
+  height: 126%;
+  position: absolute;  
+  top: 67px;
+  right: 20px;   
+  background-color: $color-footer-opacity;
+  &__text {
+  font-family: $font-family-main;
+  color: $color-secondary-text-opacity;
+  text-align: center;
+  @include font(1.5rem, 700, 2rem, 0rem);  
+  margin: 0.5rem 0;
+  }
+  @include media-break-point {
+    right: 127px;  
+    width: 8.5%;        
+  } 
+  @include media-tablet {    
+    right: 115px;  
+    width: 10.5%;            
+  } 
+}
+
+.button-pop-up-icon {
+  border: none;
+  background-color: $color-footer-opacity;
+  cursor: pointer;
+
+}

@@ -1,0 +1,50 @@
+.about__button {
+  display: flex;
+  justify-content: center;
+  margin: 3.4rem 0;
+  padding-left: 2.5rem;
+  @include media-break-point {
+    margin: 1.8rem 0 5.4rem 0;              
+  } 
+  @include media-tablet {
+    margin: 1.8rem 2.5rem 3.5rem 0;
+  }
+}
+
+.opacity-button {
+  position: relative;  
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 5rem;  
+}
+
+.button__circle {
+  top: 0.5rem;
+  left: 0.5rem;  
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 5rem;
+  background-color: $color-primery-text;
+  border-color: $color-primery-text;
+  margin: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.button__circle:hover {
+  background-color: $color-brand;
+  border-color: $color-brand;
+}
+
+.displaynone-button {
+  display: none;
+  @include media-break-point {
+    display: block;                  
+  } 
+  @include media-tablet {
+    display: block;              
+  } 
+}

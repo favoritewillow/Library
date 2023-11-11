@@ -1,0 +1,233 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: $font-family-main;
+  width: $content-width;
+  display: flex;
+  flex-direction: column;
+  margin: auto;  
+  @include media-break-point {
+    margin: auto; 
+    width: $break-point-width;     
+  }
+  @include media-tablet {
+    margin: auto; 
+    width: $tablet-width;            
+  } 
+}
+
+.main {
+  @include media-break-point {
+    margin: auto; 
+    width: $break-point-width;     
+  }
+  @include media-tablet {
+    margin: auto; 
+    width: $tablet-width;            
+  } 
+}
+
+h1 {
+  font-family: $font-family-h;
+  text-align: left;
+  color: $color-header-footer-text;  
+  @include font(3rem, 400, 5rem, 0.02rem); 
+    padding-right: 45.4rem;  
+  @include media-tablet {
+    padding-right: 24rem;             
+  } 
+}
+
+h2 {
+  font-family: $font-family-h;
+  text-align: center;
+  color: $color-primery-text;    
+  @include font(4rem, 400, 4rem, 0.2rem);
+  margin: 2rem 0;  
+  text-transform: capitalize; 
+}
+
+h3 {
+  font-family: $font-family-main;
+  color: $color-secondary-text;
+  text-align: left;
+  @include font(1.5rem, 700, 4rem, 0.2rem);  
+  margin: 2rem 0;
+}
+
+h4 {
+  font-family: $font-family-h;
+  color: $color-secondary-text;
+  text-align: left;
+  @include font(2rem, 400, 4rem, 0.2rem);
+  margin: auto;  
+}
+
+.coffee-shop__headering {
+  color: $color-brand;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.coffee-shop__headering2 {
+  color: $color-brand;
+  text-align: right;
+  margin-bottom: 0;
+}
+
+.main {
+  margin: auto;
+}
+
+.about__text, .favorites__text, .coffee-shop__text, .menu__text {
+  font-family: $font-family-main;  
+  color: $color-secondary-text;  
+  margin-top: 4rem;   
+}
+
+.about__text {  
+  text-align: center;   
+  @include font(2rem, 400, 4rem, 0rem);    
+}
+
+.favorites__text {    
+  @include font(2rem, 700, 2.4rem, 0rem);   
+  margin-bottom: 3.5rem;   
+}
+
+.coffee-shop__text {
+  @include font(2rem, 400, 4rem, 0.2rem);   
+  text-align: center;  
+}
+
+.menu__text {
+  @include font(2rem, 400, 4rem, 0.2rem);   
+  margin-right: 6rem;
+  margin-bottom: 0;
+  text-transform: capitalize; 
+  text-align: left;  
+}
+
+.menu__text2 {
+  @include font(2rem, 400, 4rem, 0.2rem);
+  margin: 4rem 6rem 0 0;  
+  text-transform: capitalize; 
+  text-align: right;
+  flex-basis: 0;
+  flex-grow: 1;  
+}
+
+.menu__price {
+  @include font(2rem, 400, 4rem, 0.2rem);  
+  font-family: $font-family-h;
+  margin: 4rem 0 0 16rem;
+}
+
+input[type='radio'],
+label {
+  font-family: $font-family-main;  
+  color: $color-secondary-text; 
+  text-align: left;
+  @include font(2rem, 400, 2.4rem, 0rem);     
+}
+
+.favorites__book {
+  font-family: $font-family-main; 
+  color: $color-secondary-text;
+  text-transform: capitalize; 
+  @include font(1.5rem, 400, 4rem, 0.2rem);  
+  text-align: left;
+  margin-top: 0;
+  margin-right: 15.3rem;
+}
+
+.contacts__text {
+  font-family: $font-family-main;  
+  color: $color-secondary-text; 
+  text-transform: capitalize; 
+  text-align: left;
+  @include font(2rem, 700, 4rem, 0.2rem);   
+  margin: 0rem 0rem 4rem 0rem;
+}
+
+.contacts-tel {
+  font-family: $font-family-main;  
+  color: $color-secondary-text; 
+  text-align: left;
+  text-transform: capitalize; 
+  @include font(2rem, 400, 4rem, 0.2rem);   
+  &__director {
+    @include font(2rem, 700, 4rem, 0.2rem);   
+  }
+}
+
+.text-h5 {
+  margin: 2rem 0 2rem 0;
+}
+
+.form-text {
+  font-family: $font-family-main;
+  color: $color-secondary-text;
+  text-align: center;
+  @include font(3rem, 400, 3.6rem, 0.02rem);
+  margin: 0 0 3.5rem 0;
+  @include media-break-point {
+    margin: 0 0 3rem 0;        
+  } 
+  @include media-tablet {
+    margin: 0 0 3rem 0;            
+  } 
+}
+
+.intup-h2, .placeholder {  
+  font-family: $font-family-h;
+  text-align: left;
+  color: $color-secondary-text;
+  @include font(3rem, 400, 5rem, 0.02rem);   
+  margin: 2rem 0 0rem 2rem;  
+}
+
+.placeholder {
+  color: $color-brand; 
+}
+
+.get-text {
+  font-family: $font-family-h;
+  text-align: right;
+  color: $color-secondary-text-opacity;
+  @include font(3rem, 400, 3.3rem, 0.02rem);   
+  margin: 0 0 3rem 0;
+  @include media-break-point {
+    margin: 2.2rem 0 3rem 0;  
+    text-align: center;      
+  } 
+  @include media-tablet {
+    margin: 2.2rem 0 3rem 0;
+    text-align: center;             
+  } 
+}
+
+.get-p {
+  font-family: $font-family-main;
+  color: $color-secondary-text-opacity;
+  text-align: right;
+  @include font(2rem, 400, 4rem, 0.02rem);  
+  margin-top: 3.5rem;
+  @include media-break-point {
+    margin: 4rem 19.5rem 2.5rem;  
+    text-align: center;      
+  } 
+  @include media-tablet {
+    margin: 4rem 6.5rem 2.5rem; 
+    text-align: center;             
+  } 
+
+}
+
+
+
+

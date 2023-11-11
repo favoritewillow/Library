@@ -1,0 +1,37 @@
+@import "base/normalize";
+
+/*abstract*/
+@import "abstract/constants";
+@import "abstract/mixins";
+
+/*base*/
+@import "base/base";
+@import "base/icons";
+@import "base/carousel";
+@import "base/buttons-inputs";
+@import "base/inputs";
+@import "base/book";
+@import "base/buttons";
+@import "base/menu";
+@import "base/map";
+@import "base/button-check";
+@import "base/burger";
+@import "base/pop-up-icon";
+
+/*layouts*/
+@import "layouts/wrapper";
+@import "layouts/header";
+@import "layouts/wellcome";
+@import "layouts/favorites";
+@import "layouts/contacts";
+@import "layouts/library-card";
+@import "layouts/footer";
+
+
+/*components*/
+@import "components/navigation";
+@import "components/underline";
+@import "components/strategies";
+@import "components/active";
+@import "components/displaynone";
+

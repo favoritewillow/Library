@@ -1,0 +1,27 @@
+.wellcome {
+  display: inline-block;
+  background-image: url(.././images/welcome/Welcome.png);
+  width: 144rem;
+  height: 60rem;
+  @include media-break-point {
+    max-width: 100%;    
+  } 
+  @include media-tablet {
+    background-image: url(.././images/welcome/Welcome768.png);
+    width: 76.8rem;  
+    height: 60rem;             
+  }
+
+  &__header {
+    background-color: $color-background;
+    width: 60rem;
+    height: 22rem;
+    margin-top: 22rem;
+  }
+
+  h2 {
+    padding-top: 3.5rem;
+    color: $color-header-footer-text;  
+    @include font(4rem, 400, 5rem, 0.3rem);
+  }   
+}

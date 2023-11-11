@@ -1,0 +1,78 @@
+.nav {
+  overflow-x: hidden;
+}
+.navigation {     
+  @include media-break-point {    
+    width: 33.2rem;
+    height: 57rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    background-color: $color-secondary-text-opacity;    
+    z-index: 10;
+    padding: 8rem 3.5rem 10rem 6.1rem;
+    margin: auto;
+    transform: translateX(100%);
+    transition: 0.5s;
+  }
+
+  @include media-tablet {    
+    width: 33.2rem;
+    height: 57rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    background-color: $color-secondary-text-opacity;    
+    z-index: 10;
+    padding: 8rem 3.5rem 10rem 6.1rem;
+    margin: auto;
+    transform: translateX(100%);
+    transition: 0.5s;
+  }
+}
+
+.navigation__link {
+  color: $color-header-footer-text;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0rem;  
+  @include font(2rem, 400, 5rem, 0.02rem);  
+  @include media-break-point {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    
+  }
+  @include media-tablet {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+  }
+}
+
+.navigation__items {
+  margin: 0 3rem 0 0;
+  a {
+    color: $color-header-footer-text;
+    text-decoration: none;
+    cursor: pointer;  
+  }
+  a:hover {
+    color: $color-brand;
+  }  
+
+  @include media-break-point {
+    margin-bottom: 3rem;
+  }
+
+  @include media-tablet {
+    margin-bottom: 3rem;
+  }
+}
+
+.navigation.active {
+  transform: translateX(0);  
+}

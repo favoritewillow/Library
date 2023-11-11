@@ -1,0 +1,41 @@
+.carusel1, .carusel2, .carusel3, .carusel4, .carusel5 {    
+    width: 45rem;
+    height: 56rem;        
+  }
+
+  .carusel1 {
+    background-image: url(.././images/strategies/image1.png);    
+  }
+
+  .carusel2 {
+    background-image: url(.././images/strategies/image2.png);  
+    @include media-break-point {
+      display: none;          
+    } 
+    @include media-tablet {
+      display: none;                
+    }    
+  }
+
+  .carusel3 {
+    background-image: url(.././images/strategies/image3.png); 
+    @include media-break-point {
+      display: none;          
+    } 
+    @include media-tablet {
+      display: none;                
+    }      
+  }
+
+  .carusel4 {
+    background-image: url(.././images/strategies/image4.png);   
+    display: none; 
+    /*visibility: hidden;*/
+  }
+
+  .carusel5 {
+    background-image: url(.././images/strategies/image5.png);    
+    display: none; 
+    /*visibility: hidden;*/
+  }
+

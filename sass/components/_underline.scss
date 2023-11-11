@@ -1,0 +1,43 @@
+.underline-h2 {
+  width: 3.8%;
+}
+
+.underline-h3 {
+  width: 11%;
+  margin: 0;
+  border: 0.1rem solid $color-brand;
+}
+
+.underline1-menu, .underline2-menu, .underline3-menu, 
+.underline4-menu, .underline5-menu, .underline6-menu {
+  width: 11rem;
+  height: 0rem;  
+  border: 0.1rem solid $color-brand;  
+}
+
+.underline1-menu, .underline2-menu, .underline4-menu {  
+  margin: 4.4rem 6rem 7.8rem 0;  
+}
+
+.underline3-menu, .underline5-menu, .underline6-menu {  
+  margin: 4.6rem 6rem 7.9rem 0;  
+}
+
+.underline-footer {
+  width: 97%;
+  margin-left: 2rem;
+  border: 0.1rem solid $color-footer-opacity;
+  @include media-break-point {
+    width: 95%;       
+  } 
+  @include media-tablet {
+    width: 95%;             
+  } 
+}
+
+.underline-pop-up-icon-content {
+  width: 48%;
+  margin: 0 0 0 2rem;
+  border: 0.1rem solid $color-brand;
+}
+

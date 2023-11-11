@@ -1,0 +1,12 @@
+.contact-map {
+  display: inline-block;
+  background-image: url('.././images/map.png');
+  width: 69.6rem;
+  height: 41.4rem;  
+  @include media-break-point {
+    margin: 8rem 2rem 0;   
+  } 
+  @include media-tablet {
+    margin: 8rem 2rem 0;                   
+  }
+}

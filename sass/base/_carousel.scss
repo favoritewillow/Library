@@ -1,0 +1,68 @@
+.carousel-wrapper {
+  position: relative;  
+  display:flex;
+  align-items: center;
+  overflow: hidden; 
+  @include media-break-point {
+    width: 90%;          
+  } 
+  @include media-tablet {
+    width: 90%;                   
+  } 
+}
+
+.item, .carousel {
+  display: flex; 
+  position: relative; 
+}
+
+.carousel {  
+  width: 1400px;
+  height: 560px;    
+  transition: left 1s ease-in-out;
+  left: 0;   
+}
+
+.item {   
+  gap: 2.5rem;
+  @include media-break-point {
+    gap: 30rem;    
+    &:first-child {
+      left: 29rem;
+    }         
+  }   
+  @include media-tablet {      
+    gap: 30.5rem;    
+    &:first-child {
+      left: 14.7rem;
+    }   
+  }
+}
+
+.carousel1, .carousel2, .carousel3, .carousel4, .carousel5 {    
+    width: 45rem;
+    height: 56rem;        
+  }
+
+  .carousel1 {
+    background-image: url(.././images/strategies/image1.png);       
+  }
+
+  .carousel2 {
+    background-image: url(.././images/strategies/image2.png);    
+  }
+
+  .carousel3 {
+    background-image: url(.././images/strategies/image3.png);     
+  }
+
+  .carousel4 {
+    background-image: url(.././images/strategies/image4.png);    
+  }
+
+  .carousel5 {
+    background-image: url(.././images/strategies/image5.png);   
+    
+  }
+
+

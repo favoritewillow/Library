@@ -1,0 +1,74 @@
+.winter-book1, .winter-book2, .winter-book3, .winter-book4, 
+.spring-book1, .spring-book2, .spring-book3, .spring-book4,
+.summer-book1, .summer-book2, .summer-book3, .summer-book4,
+.autumn-book1, .autumn-book2, .autumn-book3, .autumn-book4 {  
+  width: 20rem;
+  height: 30rem;
+  position: absolute;
+  bottom: 0;
+  right: -4rem;
+}
+
+.winter-book1 {
+  background-image: url(.././images/books/winter/TheBookEaters.png);
+}
+
+.winter-book2 {
+  background-image: url(.././images/books/winter/Cackle.png);  
+}
+
+.winter-book3 {
+  background-image: url(.././images/books/winter/DantePoetoftheSecularWorld.png);
+}
+
+.winter-book4 {
+  background-image: url(.././images/books/winter/TheLastQueen.png);  
+}
+
+.spring-book1 {
+  background-image: url(.././images/books/spring/TheBody.png);
+}
+
+.spring-book2 {
+  background-image: url(.././images/books/spring/CarryAMemoirofSurvivalonStolenLand.png);  
+}
+
+.spring-book3 {
+  background-image: url(.././images/books/spring/DaysofDistraction.png);
+}
+
+.spring-book4 {
+  background-image: url(.././images/books/spring/Dominicana.png);  
+}
+
+.summer-book1 {
+  background-image: url(.././images/books/summer/CrudeAMemoir.png);
+}
+
+.summer-book2 {
+  background-image: url(.././images/books/summer/LetMyPeopleGoSurfing.png);  
+}
+
+.summer-book3 {
+  background-image: url(.././images/books/summer/TheOctopusMuseumPoems.png);
+}
+
+.summer-book4 {
+  background-image: url(.././images/books/summer/SharkDialoguesANovel.png);  
+}
+
+.autumn-book1 {
+  background-image: url(.././images/books/autumn/CasualConversation.png);
+}
+
+.autumn-book2 {
+  background-image: url(.././images/books/autumn/TheGreatFire.png);  
+}
+
+.autumn-book3 {
+  background-image: url(.././images/books/autumn/RickeyTheLifeandLegend.png);
+}
+
+.autumn-book4 {
+  background-image: url(.././images/books/autumn/SlugAndOtherStories.png);  
+}

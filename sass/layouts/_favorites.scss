@@ -1,0 +1,27 @@
+.favorites__inputs {
+  display:flex;
+  flex-direction: row;  
+}
+
+.inputs__winter, .inputs__spring, .inputs__summer, .inputs__autumn {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  background: transparent;
+  cursor: pointer;  
+  border: 1px solid transparent;
+  width: 13rem;
+  height: 3.5rem; 
+}
+
+.inputs__winter {  
+  margin-right: 6.5rem;
+}
+
+.inputs__spring {  
+  margin-right: 5.7rem;
+}
+
+.inputs__summer {  
+  margin-right: 7.4rem;
+}

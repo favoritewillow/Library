@@ -1,0 +1,53 @@
+.header__burger {
+  display: none; 
+  @include media-break-point {
+    display: inline-block;
+    z-index: 10; 
+
+    &:hover {
+      cursor: pointer;
+    }     
+
+  } 
+
+  @include media-tablet {
+    display: inline-block;
+    z-index: 10;     
+
+    &:hover {
+      cursor: pointer;
+    }               
+  } 
+}
+
+.burger__line {
+  width: 4.5rem;
+  height: 0.2rem;
+  background-color: $color-footer-opacity;
+  margin-bottom: 0.8rem;
+  transition: all 0s;
+}
+
+
+.header__burger > :last-child {
+  margin-bottom: 0;
+}
+
+.header__burger.active {    
+  margin-right: -1.6rem;
+  position: fixed;
+  top: 3.5rem;
+  right: 2rem;
+  } 
+
+.header__burger.active .line1 {
+  transform: translate(-20%, 500%) rotate(45deg); 
+}
+
+.header__burger.active .line2 {
+  transform: translateX(110%);
+}
+
+.header__burger.active .line3 {
+  transform: translate(-24%, -467%) rotate(-45deg);
+}

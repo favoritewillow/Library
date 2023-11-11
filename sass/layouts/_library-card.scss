@@ -1,0 +1,21 @@
+.form-block {
+  display: flex;
+  flex-direction: column;
+  border: 0.3rem solid $color-brand;
+  width: 59.5rem;
+  height: 38rem;
+  box-shadow: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.input-block {  
+  background-color: $color-brand;
+  width: 56rem;
+  height: 27.2rem;
+  margin: 1.7rem 2rem 2rem 1.8rem; 
+}
+
+.input-box { 
+  display: flex;
+  flex-direction: column;  
+}
